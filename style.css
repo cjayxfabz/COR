@@ -1,0 +1,43 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 1px solid black;
+}
+body,header {
+    font-family: Arial, sans-serif;
+}
+header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border: 1px solid black;
+    border: collapse;
+    padding: 0;
+}
+th, td {
+    padding: 10px;
+}
+.header img {
+    margin-right: 0px;
+    vertical-align: middle;
+}
+.header .text {
+    text-align: center;
+    padding: 50px;
+}
+.header .text h1 {
+    margin: 0;
+    font-size: 18px;
+}
+.header .text p {
+    margin: 5px 0 0 0;
+    font-size: 12px;
+}
